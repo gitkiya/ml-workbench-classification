@@ -1,0 +1,12 @@
+project:
+  name: ML Workbench
+  task: classification
+  random_state: 42
+training:
+  default_test_size: 0.20
+  default_cv_folds: 5
+  selection_metric: f1_weighted
+models:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest

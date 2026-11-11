@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.streamlit/
+artifacts/models/*.joblib
+artifacts/models/*.json
+artifacts/reports/*.json
+.DS_Store
+.env
+.env.*
+!.env.example
