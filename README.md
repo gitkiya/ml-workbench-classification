@@ -67,7 +67,7 @@ Open the local URL shown by Streamlit, upload a classification CSV, choose the t
 ## Run tests
 
 ```bash
-pytest -q
+python -m pytest -v
 ```
 
 ## Use with Titanic
